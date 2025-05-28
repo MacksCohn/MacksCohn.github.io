@@ -1,5 +1,12 @@
+// The current description that is shown
 state = 'description';
 
+
+// This function is in place so when you click on an image the corresponding description shows up
+// I luckily remembered the basics of javascript because it similar enough to c# and C++.
+
+// Prerequisites: Pass a class that some element on the page is a part of.
+// Side Effects: changes state
 function setChildText(child) {
     const previouslySelected = document.getElementsByClassName(state); 
     previouslySelected[0].style.visibility = 'hidden';
