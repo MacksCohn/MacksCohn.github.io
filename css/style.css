@@ -37,7 +37,7 @@ a:visited {
 /* The top bar */
 
 .title {
-    font-size: 2vw;
+    font-size: 2vh;
     background-color: #453844;
     margin-top: 0px;
     padding-top: 0px;
@@ -45,11 +45,13 @@ a:visited {
     justify-content: space-between;
 }
 
-.title > span {
+.title > h1, .title > h2 {
     padding-top: 1%;
     padding-right: 1%;
     padding-left: 1%;
     padding-bottom: 1%;
+    margin: 0 0 0 0;
+    font-size: 2vh;
 }
 
 /* includes intro and bottom classes, coloration */
