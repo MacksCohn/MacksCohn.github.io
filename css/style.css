@@ -133,7 +133,7 @@ p.description {
     margin: 1%;
     max-width: 150px;
     transition-duration: .2s;
-    transition-timing-function: ease-in-out();
+    transition-timing-function:ease-in-out; 
 }
 
 /* The user-select segments I learned about here 
